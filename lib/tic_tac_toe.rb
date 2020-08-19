@@ -96,10 +96,8 @@ class TicTacToe
   def winner
     winner = won?
     # binding.pry
-    if @board[winner[0]] == "X"
-      "X"
-    elsif @board[winner[0]]  == "O"
-      "O"
+    if winner
+      @board[winner[0]]
     end
   end
   
