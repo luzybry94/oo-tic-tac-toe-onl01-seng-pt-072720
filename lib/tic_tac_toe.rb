@@ -101,7 +101,7 @@ class TicTacToe
     elsif @board[winner[0]]  == "O"
       "O"
     else
-      false
+      winner == nil
     end
   end
   
