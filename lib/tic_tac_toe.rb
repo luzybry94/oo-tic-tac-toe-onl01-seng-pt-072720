@@ -95,9 +95,9 @@ class TicTacToe
   
   def winner
     winner = won?
+    binding.pry
     if winner == "X"
       "X"
-      binding.pry
     elsif winner == "O"
       "O"
     else
