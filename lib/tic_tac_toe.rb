@@ -102,7 +102,6 @@ class TicTacToe
       "O"
     else
       @board[winner[0]] == nil
-      
     end
   end
   
